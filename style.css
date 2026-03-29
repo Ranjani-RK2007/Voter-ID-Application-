@@ -1,35 +1,15 @@
-<style>
-    body {
-        margin: 0;
-        height: 100vh;
-        background: linear-gradient(
-            45deg, 
-            #ff9a9e 0%, 
-            #fad0c4 20%, 
-            #a1c4fd 40%, 
-            #c2e9fb 60%, 
-            #d4fc79 80%, 
-            #96e6a1 100%
-        );
-        background-attachment: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        position: relative;
-    }
 
-    
+<style>
     body::before {
-        content: "RIGHT TO VOTE";
-        position: absolute;
-        font-family: "Arial Black", sans-serif;
-        font-size: 10vw;
-        color: rgba(255, 255, 255, 0.15); 
-        text-transform: uppercase;
-        transform: rotate(-30deg);
-        white-space: nowrap;
-        pointer-events: none; 
-        user-select: none;
-    }
+    content: "RIGHT TO VOTE";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 9999;
+}
 </style>
