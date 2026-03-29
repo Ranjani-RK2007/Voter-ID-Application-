@@ -2,7 +2,6 @@
     body {
         margin: 0;
         height: 100vh;
-        /* A vibrant multi-color gradient */
         background: linear-gradient(
             45deg, 
             #ff9a9e 0%, 
@@ -20,17 +19,17 @@
         position: relative;
     }
 
-    /* The watermark styling */
+    
     body::before {
         content: "RIGHT TO VOTE";
         position: absolute;
         font-family: "Arial Black", sans-serif;
         font-size: 10vw;
-        color: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+        color: rgba(255, 255, 255, 0.15); 
         text-transform: uppercase;
         transform: rotate(-30deg);
         white-space: nowrap;
-        pointer-events: none; /* Allows clicking through the watermark */
-        user-select: none;    /* Prevents text selection */
+        pointer-events: none; 
+        user-select: none;
     }
 </style>
