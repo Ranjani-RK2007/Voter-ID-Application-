@@ -1,0 +1,27 @@
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background-color: orange;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    body::before {
+        content: "RIGHT TO VOTE";
+        position: absolute;
+        font-family: "Arial Black", sans-serif;
+        font-size: 10vw;
+        color: rgba(0, 0, 0, 0.1);
+        text-transform: uppercase;
+        transform: rotate(-30deg);
+        
+    }
+    body{
+        line-height: 2;
+    }
+    </style>
+
