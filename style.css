@@ -1,17 +1,5 @@
 
 <style>
-    body::before {
-    content: "RIGHT TO VOTE";
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-30deg);
-    font-size: 60px;
-    color: rgba(0, 0, 0, 0.1);
-    pointer-events: none;
-    white-space: nowrap;
-    z-index: 9999;
-}
 body{
     back-ground color: blue;
     line-spacing: 2;
